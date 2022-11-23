@@ -29,6 +29,7 @@ export default {
 .containerHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: bold;
   width: 80%;
   margin: auto;

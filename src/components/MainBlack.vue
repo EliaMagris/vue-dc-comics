@@ -17,6 +17,8 @@ export default {
 .MainBlack {
   height: 40%;
   background-color: black;
+  display: flex;
+  align-items: center;
 
   .blackContainer {
     width: 80%;
