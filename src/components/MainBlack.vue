@@ -1,0 +1,27 @@
+<template>
+  <div class="MainBlack">
+    <div class="blackContainer">
+      <h2>-- CONTENT GOES HERE --</h2>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MainBlack',
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+.MainBlack {
+  background-color: black;
+
+  .blackContainer {
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    color: white;
+  }
+}
+</style>

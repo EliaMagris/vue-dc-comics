@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HeaderSec/>
+    <MainSec/>
   </div>
 </template>
 
 <script>
 import HeaderSec from './components/HeaderSec.vue'
+import MainSec from './components/MainSec.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderSec
+    HeaderSec,
+    MainSec
   }
 }
 </script>
