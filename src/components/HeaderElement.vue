@@ -30,8 +30,9 @@ export default {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  width: 85%;
+  width: 80%;
   margin: auto;
+  height: 100%;
 
   img {
     width: 80px;
@@ -44,6 +45,7 @@ export default {
 
   .navBar {
     display: flex;
+    font-size: 0.8rem;
 
     .active{
         color: blue;
@@ -51,7 +53,7 @@ export default {
     
     li {
       list-style: none;
-      margin: 0 20px;
+      margin: 0 15px;
     }
   }
 }

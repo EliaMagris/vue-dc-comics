@@ -15,10 +15,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .MainBlack {
+  height: 40%;
   background-color: black;
 
   .blackContainer {
-    width: 85%;
+    width: 80%;
     margin: auto;
     padding: 15px 0;
     color: white;

@@ -21,5 +21,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+main{
+  height: 30%;
+  position: relative;
+  z-index: 2;
+}
+  .MainBlue{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 </style>

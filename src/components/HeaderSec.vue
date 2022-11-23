@@ -19,7 +19,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   header{
+    height: 10%;
     padding: 5px;
+    z-index: 2;
   }
 
 </style>
