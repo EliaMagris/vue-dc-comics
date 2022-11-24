@@ -8,8 +8,9 @@
           :key="index"
           :dettagliProdotto="element"
         />
-        <button class="btn-blue">LOAD MORE</button>
-        <button class="btn-blue absolute">CURRENT SERIES</button>
+        <ButtonDinamic :propsText="'LOAD MORE'"/>
+        <ButtonDinamic class="absolute" :propsText="'CURRENT SERIES'"/>
+
       </div>
     </div>
     <MainBlue />
@@ -19,12 +20,14 @@
 <script>
 import MainBlack from "./MainBlack.vue";
 import MainBlue from "./MainBlue.vue";
+import ButtonDinamic from "./ButtonDinamic.vue";
 
 export default {
   name: "MainSec",
   components: {
     MainBlack,
     MainBlue,
+    ButtonDinamic
   },
   data() {
     return {
