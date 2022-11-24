@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'HeaderElement',
+  name: "HeaderElement",
 };
 </script>
 
@@ -39,22 +39,39 @@ export default {
     width: 80px;
   }
 
-  .navContainer{
+  .navContainer {
     display: flex;
     align-items: center;
+    
   }
 
   .navBar {
     display: flex;
     font-size: 0.8rem;
 
-    .active{
-        color: blue;
+    li::after {
+      content: "";
+      display: block;
+      margin: auto;
+      height: 2px;
+      width: 5px;
+      transition: all 0.4s;
     }
-    
+
+    li:hover::after {
+      width: 100%;
+      background: rgb(31, 5, 224);
+    }
+
+    .active {
+      color: blue;
+    }
+
     li {
       list-style: none;
       margin: 0 15px;
+      cursor: pointer;
+      position: relative;
     }
   }
 }

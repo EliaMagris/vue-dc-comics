@@ -23,7 +23,6 @@
   footer{
     color: white;
     //padding: 10px;
-    height: 60%;
     background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
     z-index: 2;

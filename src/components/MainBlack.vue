@@ -1,30 +1,36 @@
 <template>
   <div class="MainBlack">
-    <div class="blackContainer">
-      <h2>-- CONTENT GOES HERE --</h2>
+    <div class="cards">
+      <img :src="dettagliProdotto.thumb" alt="">
+      <h4>{{ dettagliProdotto.series }}</h4>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MainBlack',
+  name: "MainBlack",
+  props: {
+      dettagliProdotto: Object
+    }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.MainBlack {
-  height: 40%;
-  background-color: black;
-  display: flex;
-  align-items: center;
 
-  .blackContainer {
-    width: 80%;
-    margin: auto;
-    padding: 15px 0;
+  .MainBlack{
+    width: calc(100% / 6);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     color: white;
+
+    .cards{
+      text-align: center;
+    }
   }
-}
+
+  
+
 </style>

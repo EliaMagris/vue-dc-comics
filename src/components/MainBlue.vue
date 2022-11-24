@@ -68,7 +68,7 @@ export default {
         align-items: center;
         flex-basis: 20%;
         justify-content: center;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
 
         span {
           padding: 0 8px;
