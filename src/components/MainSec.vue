@@ -151,14 +151,14 @@ main {
     justify-content: center;
     position: relative;
 
-    .btn-blue{
+    .btn-blue {
       background-color: rgb(93, 93, 231);
       color: white;
-      padding: 15px;
+      padding: 10px 25px;
       border: 1px solid black;
     }
 
-    .absolute{
+    .absolute {
       position: absolute;
       top: -28px;
       left: 30px;
